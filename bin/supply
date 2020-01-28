@@ -1,0 +1,3 @@
+#!/bin/bash
+currHardLimit=$(ulimit -Hc)
+ulimit -Sc "${currHardLimit}"
